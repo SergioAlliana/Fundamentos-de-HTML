@@ -1,0 +1,128 @@
+<html>
+	<head>
+		<title>Resumen Curricular</title>
+        <style>
+            /* Add class to mark the active page */
+            .active{
+                color: #ffffff;
+                background: #4c77f1;
+            }
+        </style>
+	</head>
+	<body>
+		<header>
+            <svg width="350px" height="150px" style="border:2px solid black;">
+                <image xlink:href="../images/logo.svg" width="350px" height="150px" x="0px" y="0px"></image>
+            </svg>
+            <h1>Curriculum Vitae</h1>
+        </header>
+
+        <section>
+            <h2>Datos Personales:</h2>
+
+            <article>
+                <p>Nombre: Kuai</p>
+                <p>Apellido: Liang</p>
+                <p>Alias: Sub-Zero</p>
+                <p>Fecha de nacimiento: o3 de diciembre de 1987</p>
+                <p>Lugar de nacimiento: Templo Lin Kuei, Earthrealm</p>
+            </article>
+
+        </section>
+
+        <br>
+        <br>
+
+        <navbar>
+            <a href="../index.html">Inicio</a>
+            |
+            <a href="educacion.html" class="active">Educación</a>
+            |
+            <a href="experiencia.html">Experiencia</a>
+        </navbar>
+
+        <br>
+        <br>
+
+        <section>
+            <h2>Educación:</h2>
+
+            <article>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Año</th>
+                            <th>Institución</th>
+                            <th>Lugar</th>
+                            <th>¿Culminó?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1992</td>
+                            <td>Templo Lin Kuei</td>
+                            <td>China</td>
+                            <td>Si</td>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>Outworld </td>
+                            <td>Desconocido</td>
+                            <td>Si</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <br>
+
+            <h2>Agregar Estudios:</h2>
+
+            <article>
+                <form action="">
+                    <p>
+                        <label for="anio">Año:</label>
+                        <select name="anio">
+                            <option value="1">2017</option>
+                            <option value="2">2016</option>
+                            <option value="3">2015</option>
+                            <option value="4">2014</option>
+                            <option value="5">2013</option>
+                            <option value="6">2012</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="institucion">Institución: </label>
+                        <input type="text" name="institucion" placeholder="Ingrese institución" required>
+                    </p>
+                    <p>
+                        <label for="lugar">Lugar: </label>
+                        <textarea name="lugar" cols="30" rows="2"></textarea>
+                    </p>
+                    <p>
+                        <label for="culmino">¿Culminó?: </label>
+                        <input type="radio" name="culmino"> Si
+                        <input type="radio" name="culmino"> No
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+            </article>
+
+        </section>
+
+        <br>
+        <br>
+
+        <footer>
+            Derechos reservados
+            <ul>
+                <li>Email: sub.zero@gmail.com </li>
+                <li>Instagram: @sub.zero</li>
+                <li>Teléfono: Sin cobertura</li>
+            </ul>
+        </footer>
+
+    </body>
+</html>
